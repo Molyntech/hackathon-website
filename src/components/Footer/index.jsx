@@ -15,16 +15,16 @@ import './style.scss';
 
 const GithubTemplate = ({hideTemplate}) => {
   return (
-    <div className="template">
-      <div className="template-left">
+    <div>
+      {/* <div className="template-left">
         <p>
           Join us to{' '}
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
           where we will be hosting PUBLIC workshops, tech talks, panel
           discussions, and career sessions!
         </p>
-      </div>
-      <img onClick={hideTemplate} src={cross} />
+      </div> */}
+      {/* <img onClick={hideTemplate} src={cross} /> */}
     </div>
   );
 };
@@ -119,7 +119,7 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️</p>
+          <p>Made with ❤️ by Moyosore Ajayi</p>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />

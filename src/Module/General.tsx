@@ -34,47 +34,43 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'Join Arravo Hacks',
+  Typed_effect: ['hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on 11th December 2023 with over 300 students from across the nation for hours of creation, innovation, & fun.',
   IMG_SRC: boy,
-  DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+  JUDGES_FORM_LINK: '#',
+  HACKERS_REGISTRATION_FORM_LINK: '#'
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
+  instagram: 'https://www.instagram.com/arravohacks/',
   linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
+  twitter: 'https://twitter.com/HacksArravohacks',
   devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  email: 'mailto:hello@arravohacks.tech',
+  mail: 'hello@arravohacks.tech'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is Arravo Legaltech hacks?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Arravo/Perchstone Hackathon is a long running hackathon will begin in December, We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the Hackathon we will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: '#'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: '#'
   },
   Privacy_policy: {
     required: true,
-    src: ''
+    src: './Assets/HACKATHON LANDING PAGE DOCUMENTATION - PRIVACY POLICY (07.09.23).docx'
   },
   Terms_of_use: {
     required: true,
@@ -91,12 +87,12 @@ const FOOTER = {
 
 const calenderStartingDate = {
   month: 12,
-  year: 2021
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '8-11-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -106,7 +102,7 @@ const schedule = [
     ]
   },
   {
-    day: '5-12-2021',
+    day: '5-12-2023',
     events: [
       {
         title: 'Intro to deep learning',
@@ -121,7 +117,7 @@ const schedule = [
     ]
   },
   {
-    day: '3-12-2021',
+    day: '3-12-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -131,7 +127,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-12-2021',
+    day: '1-12-2023',
     events: [
       {
         title: 'Intro to deep learning',
@@ -141,7 +137,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-1-2022',
+    day: '1-1-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -230,21 +226,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      Name: 'Moyosore',
       role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
+      github: '#',
       linkedin: '',
       img: me
     },
     {
-      Name: 'Moon',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: moon
     },
     {
-      Name: 'Erika',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -254,14 +250,14 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -274,21 +270,21 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: me
     },
     {
-      Name: 'Moon',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: moon
     },
     {
-      Name: 'Ryah Garcia',
+      Name: 'Moyosore Ajayi',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -298,14 +294,14 @@ const JudgesInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
+      Name: 'Moyosore',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -336,12 +332,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'ksjcpwdncd[cojwd[cjd[" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'Arravohacks Hacks is open to all undergraduate, high school students and middle school students from all schools.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -363,7 +359,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly at (moyosore@arravohacks.tech or hello@arravohacks.tech) we would happy to help you.'
       },
       {
         label: 'Can i volunteer?',
@@ -372,7 +368,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will recieveing Arravohacks Hacks swag!.'
       }
     ]
   ]

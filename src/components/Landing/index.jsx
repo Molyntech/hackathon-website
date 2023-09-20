@@ -30,12 +30,12 @@ const Myinfo = () => {
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
       <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-          <Btn
+          {/* <Btn
             ico="fab fa-2x fa-discord"
             class="join_disco"
             type="Join our discord"
             overlay="Click the link"
-          />
+          /> */}
         </a>
       </div>
       <div className="buttom-group">
